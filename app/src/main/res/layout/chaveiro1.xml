@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo333"
+
+    tools:context=".Chaveiro1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:orientation="vertical"
+            android:weightSum="1"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="200dp"
+                    android:background="@drawable/chaveiro"
+                    android:scaleType="fitCenter"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/textView10"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="50dp"
+                    android:text="CHAVEIRO PARAPUÃ"
+                    android:textAlignment="center"
+                    android:textColor="#000fff"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+
+
+            </RelativeLayout>
+
+
+
+                 <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="17sp"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abertura de Cofres"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:text="Autos e Residenciais"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+            <TextView
+
+                android:textSize="22sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cópia Mul-T-Locks"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#000" />
+            <TextView
+
+                android:textSize="22sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trava Elétrica e Fechaduras"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#000" />
+
+            <TextView
+
+                android:textSize="22sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reformas de Vidros Elétricos"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#000" />
+
+            <TextView
+
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+
+                <ImageView
+                    android:layout_width="340dp"
+                    android:layout_height="200dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/chaveiro"
+                    android:text="Ligue para nós" />
+            </RelativeLayout>
+
+
+            <TextView
+
+                android:textSize="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+
+            <TextView
+                android:textSize="35sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Emergência"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+
+
+            <TextView
+                android:id="@+id/textView20c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="fone: 3975-3559"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/textView20c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="fone:  (11) 7836-7946"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="ID: 2*45144"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+
+
+            <TextView
+                android:layout_width="398dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView9"
+                android:layout_marginTop="14dp"
+                android:layout_weight="0.02"
+                android:text="Rua Parapuã nº206
+Itaberaba - Sp"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Freguêsia do Ó"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="91dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="68dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/logo_insta"
+                    android:text="Ligue para nós" />
+
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="68dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_toEndOf="@+id/imageView"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:src="@drawable/logo_fb"
+                    android:text="Ligue para nós" />
+
+                <ImageView
+                    android:layout_width="68dp"
+                    android:layout_height="90dp"
+                    android:layout_alignLeft="@+id/imageView5"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/imageView5"
+                    android:layout_marginLeft="71dp"
+                    android:layout_marginStart="71dp"
+                    android:src="@drawable/logo_google"
+                    android:text="Ligue para nós"
+                    android:id="@+id/imageView6" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="68dp"
+                    android:layout_height="90dp"
+                    android:layout_alignBottom="@+id/imageView6"
+                    android:layout_toEndOf="@+id/imageView6"
+                    android:layout_toRightOf="@+id/imageView6"
+                    android:src="@drawable/logo_whatsapp"
+                    android:text="Ligue para nós" />
+
+                <ImageView
+                    android:layout_width="68dp"
+                    android:layout_height="90dp"
+                    android:layout_alignTop="@+id/imageView7"
+                    android:layout_toEndOf="@+id/imageView7"
+                    android:layout_toRightOf="@+id/imageView7"
+                    android:src="@drawable/logo_viber"
+                    android:text="Ligue para nós" />
+
+
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/btnVoltar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textAlignment="center"
+                android:textColor="#000FFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:text="Voltar"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slImages"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <com.daimajia.slider.library.Indicators.PagerIndicator
+        android:id="@+id/custom_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:layout_marginTop="-15dp"
+        />
+
+    <ImageView
+        android:id="@+id/btnaudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="187dp"
+        android:background="@drawable/audiotexto"
+        android:text="AudioTexto" />
+
+
+</RelativeLayout>
+
+
+
+
+
+
+

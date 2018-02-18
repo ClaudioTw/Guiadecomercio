@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo333"
+
+    tools:context=".Motoboy1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:orientation="vertical"
+            android:weightSum="1"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="200dp"
+                    android:background="@drawable/caminhaomudancas"
+                    android:scaleType="fitCenter"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/textView10"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="50dp"
+                    android:text="TONYMAR"
+                    android:textAlignment="center"
+                    android:textColor="#fff000"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="Toninho e Marlene"
+                    android:textAlignment="center"
+                    android:textColor="#fff000"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="10sp"
+
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MUDANÇAS e CARRETOS"
+                android:textAlignment="center"
+                android:textColor="#000FFF"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="10sp"
+
+                android:textColor="#000" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+
+                <ImageView
+                    android:layout_width="340dp"
+                    android:layout_height="200dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/cacavaza"
+                    android:text="Ligue para nós" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="17sp"
+
+                android:textColor="#000" />
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="10sp"
+
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entre em contato conosco."
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="25sp"
+
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="10sp"
+
+                android:textColor="#000" />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:text="Fone: (11) 3991-7829"
+
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:text="(11) 96526-2116 oi"
+
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:text="    (11) 96490-8313 vivo"
+
+                android:textColor="#000" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="            (11) 98586-0277"
+                android:textAlignment="textStart"
+                android:textColor="#000"
+                android:textSize="25sp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nextel: (11) 7740-3247 / ID: 11*39937"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="10sp"
+
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="contato@tonymar.com.br"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="25sp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="www.tonymar.com.br"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="10sp"
+
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:text="Piqueri - SP"
+
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="10sp"
+
+                android:textColor="#000" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="91dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="68dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/logo_insta"
+                    android:text="Ligue para nós" />
+
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="68dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="193dp"
+                    android:src="@drawable/logo_fb"
+                    android:text="Ligue para nós" />
+
+                <ImageView
+                    android:layout_width="68dp"
+                    android:layout_height="90dp"
+                    android:layout_alignLeft="@+id/imageView5"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/imageView5"
+                    android:layout_marginLeft="71dp"
+                    android:layout_marginStart="71dp"
+                    android:src="@drawable/logo_google"
+                    android:text="Ligue para nós"
+                    android:id="@+id/imageView6" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="68dp"
+                    android:layout_height="90dp"
+                    android:layout_alignBottom="@+id/imageView6"
+                    android:layout_toEndOf="@+id/imageView6"
+                    android:layout_toRightOf="@+id/imageView6"
+                    android:src="@drawable/logo_whatsapp"
+                    android:text="Ligue para nós" />
+
+                <ImageView
+                    android:layout_width="68dp"
+                    android:layout_height="90dp"
+                    android:layout_alignTop="@+id/imageView7"
+                    android:layout_toEndOf="@+id/imageView7"
+                    android:layout_toRightOf="@+id/imageView7"
+                    android:src="@drawable/logo_viber"
+                    android:text="Ligue para nós" />
+
+
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/btnVoltar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textAlignment="center"
+                android:textColor="#000FFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:text="Voltar"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slImages"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <com.daimajia.slider.library.Indicators.PagerIndicator
+        android:id="@+id/custom_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:layout_marginTop="-15dp"
+        />
+
+    <ImageView
+        android:id="@+id/btnaudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="187dp"
+        android:background="@drawable/audiotexto"
+        android:text="AudioTexto" />
+
+
+</RelativeLayout>

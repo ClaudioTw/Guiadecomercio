@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.introslider">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MenuPrincipal" />
+        <activity android:name=".Card_advogado" />
+        <activity android:name=".Academias" />
+        <activity android:name=".Andaimes" />
+        <activity android:name=".Aquecedorsolar" />
+        <activity android:name=".Ar_carro" />
+        <activity android:name=".Ar_condicionado" />
+        <activity android:name=".Autos" />
+        <activity android:name=".Automoveis" />
+        <activity android:name=".Azulejo" />
+        <activity android:name=".Bateria" />
+        <activity android:name=".Bolos" />
+        <activity android:name=".Banheiro" />
+        <activity android:name=".Buffet" />
+        <activity android:name=".Beleza" />
+        <activity android:name=".Cacavaza" />
+        <activity android:name=".Calhasruf" />
+        <activity android:name=".Caminhaomudanca" />
+        <activity android:name=".CarroOficina" />
+        <activity android:name=".Chaveiro" />
+        <activity android:name=".ClinVeterinaria" />
+        <activity android:name=".Cofres" />
+        <activity android:name=".Cortinas" />
+        <activity android:name=".Decoracao" />
+        <activity android:name=".Dedetizacao" />
+        <activity android:name=".Desentupimento" />
+        <activity android:name=".Eletricista" />
+        <activity android:name=".EletroTv" />
+        <activity android:name=".Encanadores" />
+        <activity android:name=".EnergiaSolar" />
+        <activity android:name=".EsquadriasAluminio" />
+        <activity android:name=".Extintores" />
+        <activity android:name=".Fantasias" />
+        <activity android:name=".Festa_Artfesta" />
+        <activity android:name=".Fsioterapia" />
+        <activity android:name=".ForrosDivisorias" />
+        <activity android:name=".Fossassepticas" />
+        <activity android:name=".FotoFilmagem" />
+        <activity android:name=".Graficas" />
+        <activity android:name=".Guinchos" />
+        <activity android:name=".Hospveterinario" />
+        <activity android:name=".Institutobeleza" />
+        <activity android:name=".MaquinaLavar" />
+        <activity android:name=".Marcenaria" />
+        <activity android:name=".MaridoAluguel" />
+        <activity android:name=".MarmoreGranito" />
+        <activity android:name=".Odonto" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Motoboy" />
+        <activity android:name=".MoveisEscritorio" />
+        <activity android:name=".Persianas" />
+        <activity android:name=".Pisos" />
+        <activity android:name=".PisosLaminados" />
+        <activity android:name=".Pizzzarias" />
+        <activity android:name=".PlanoSaude" />
+        <activity android:name=".PortasAutomaticas" />
+        <activity android:name=".RedesProtecao" />
+        <activity android:name=".SanteAcademia" />
+        <activity android:name=".AcademiaGrupo" />
+        <activity android:name=".Advocacia1" />
+        <activity android:name=".Andaime1" />
+        <activity android:name=".Aquecedorsolar1" />
+        <activity android:name=".Ar_carro1" />
+        <activity android:name=".Ar_condicionado1" />
+        <activity android:name=".Automoveis1" />
+        <activity android:name=".Autos1" />
+        <activity android:name=".Azulejos1" />
+        <activity android:name=".Banheiro1" />
+        <activity android:name=".Bateria1" />
+        <activity android:name=".Beleza1" />
+        <activity android:name=".Bolos1" />
+        <activity android:name=".Buffet1" />
+        <activity android:name=".Cacavaza1" />
+        <activity android:name=".Calhasruf1" />
+        <activity android:name=".Caminhaomudanca1" />
+        <activity android:name=".Card_advogado1" />
+        <activity android:name=".CarroOficina1" />
+        <activity android:name=".Chaveiro1" />
+        <activity android:name=".ClinVeterinaria1" />
+        <activity android:name=".Cofres1" />
+        <activity android:name=".Cortinas1" />
+        <activity android:name=".Decoracao1" />
+        <activity android:name=".Dedetizacao1" />
+        <activity android:name=".Desentupimento1" />
+        <activity android:name=".Eletricista1" />
+        <activity android:name=".EletroTv1" />
+        <activity android:name=".Encanadores1" />
+        <activity android:name=".EnergiaSolar1" />
+        <activity android:name=".EsquadriasAluminio1" />
+        <activity android:name=".Extintores1" />
+        <activity android:name=".Fantasia1" />
+        <activity android:name=".Festa_Artfesta1" />
+        <activity android:name=".ForrosDivisorias1" />
+        <activity android:name=".Fossassepticas1" />
+        <activity android:name=".Fsioterapia1" />
+        <activity android:name=".Graficas1" />
+        <activity android:name=".Guinchos1" />
+        <activity android:name=".Hospveterinario1" />
+        <activity android:name=".Institutobeleza1" />
+        <activity android:name=".MaquinaLavar2" />
+        <activity android:name=".Marcenaria1" />
+        <activity android:name=".MaridoAluguel1" />
+        <activity android:name=".MarmoreGranito1" />
+        <activity android:name=".Motoboy1" />
+        <activity android:name=".MoveisEscritorio1" />
+        <activity android:name=".Odonto1" />
+        <activity android:name=".Persianas1" />
+        <activity android:name=".Pisos1" />
+        <activity android:name=".PisosLaminados1" />
+        <activity android:name=".Pizzzarias1" />
+        <activity android:name=".PlanoSaude1" />
+        <activity android:name=".PortasAutomaticas1" />
+        <activity android:name=".Construcaoreforma" />
+        <activity android:name=".Rede_Protecao1" />
+        <activity android:name=".Advogados2" />
+        <activity android:name=".Advogados3" />
+        <activity android:name=".Ar_condicionado2" />
+        <activity android:name=".Ar_Carro2" />
+        <activity android:name=".Buffet2" />
+        <activity android:name=".Cacavaza2" />
+        <activity android:name=".Calhasruf2" />
+        <activity android:name=".Construcaoreforma1" />
+        <activity android:name=".Desentupimento2" />
+        <activity android:name=".Desentupimento3" />
+        <activity android:name=".Desentupimento4" />
+        <activity android:name=".Desentupimento5" />
+        <activity android:name=".Desentupimento6" />
+        <activity android:name=".Desentupimento7" />
+        <activity android:name=".Encanadores2" />
+        <activity android:name=".Eletro_tv2" />
+        <activity android:name=".Eletro_tv3" />
+        <activity android:name=".Fossassepticas2" />
+        <activity android:name=".Fossassepticas3" />
+        <activity android:name=".FotoFilmagem1" />
+        <activity android:name=".FotoFilmagem2" />
+        <activity android:name=".MaquinaLavar3" />
+        <activity android:name=".MaquinaLavar4" />
+        <activity android:name=".Marcenaria2" />
+        <activity android:name=".Marcenaria3" />
+        <activity android:name=".Marcenaria4" />
+        <activity android:name=".PortasAutomaticas2" />
+        <activity android:name=".RedesProtecao2" />
+        <activity android:name=".RedesProtecao3" />
+        <activity android:name=".Dedetizacao2" />
+        <activity android:name=".CasadeboloSite" />
+        <activity
+            android:name=".MenuGuia"
+            android:label="@string/title_activity_menu_guia"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Cadastroweb" />
+        <activity android:name=".Forum" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Mapa"
+            android:label="@string/title_activity_mapa"></activity>
+    </application>
+
+</manifest>

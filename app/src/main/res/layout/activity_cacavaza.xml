@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fundo333"
+
+    android:scrollbars="vertical"
+    >
+
+    <android.support.v7.widget.CardView
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="490dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/cacavaza"
+                    android:layout_width="490dp"
+                    android:layout_height="190dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/logoesgotecnica" />
+
+
+                <TextView
+                    android:id="@+id/titulo02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="47dp"
+                    android:maxLines="3"
+                    android:padding="4dp"
+                    android:text=" Caça Vazamento"
+                    android:textAlignment="center"
+                    android:textColor="#FFF"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="18dp"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Robalo-flexa pode chegar até seus belos 30 kilos, podendo ser fisgado em rios, mangues e mares
+"
+                    android:textAlignment="center"
+                    android:textColor="#FFF"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="0dp"
+                    android:maxLines="3"
+                    android:padding="4dp"
+
+                    android:textAlignment="center"
+                    android:textColor="#FFF"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/cacavaza2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/loggeofotec" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="47dp"
+                    android:maxLines="3"
+                    android:padding="4dp"
+                    android:text=" Arraia"
+                    android:textAlignment="center"
+                    android:textColor="#FFF"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="18dp"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Robalo-flexa pode chegar até seus belos 30 kilos, podendo ser fisgado em rios, mangues e mares
+"
+                    android:textAlignment="center"
+                    android:textColor="#FFF"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/titulo3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="0dp"
+                    android:maxLines="3"
+                    android:padding="4dp"
+
+                    android:textAlignment="center"
+                    android:textColor="#FFF"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+
+            <TextView
+                android:id="@+id/titulo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:maxLines="3"
+                android:padding="4dp"
+
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</ScrollView>
+

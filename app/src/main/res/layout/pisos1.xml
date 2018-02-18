@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo333"
+
+    tools:context=".Pisos1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:orientation="vertical"
+            android:weightSum="1"
+            >
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="426dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="236dp"
+                android:text="         Azulejos Antigos"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tudo para Reposição, Compra e Vendas"
+                android:textAlignment="center"
+                android:textColor="#000FFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textAlignment="center"
+                android:textSize="17sp"
+                android:textColor="#000" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="131dp">
+
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="120dp"
+                    android:layout_height="131dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginStart="35dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/decoracao" />
+
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="120dp"
+                    android:layout_height="131dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="46dp"
+                    android:layout_marginRight="46dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/decoracao" />
+
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pisos"
+                android:textAlignment="center"
+                android:textSize="20sp"
+
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="20sp"
+                android:text="Azulejos"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+            <TextView
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fora de Linha"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+
+
+
+
+            <TextView
+
+                android:textSize="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Matrix"
+                android:textAlignment="center"
+                android:textColor="#000FFF"
+                android:textSize="20sp" />
+
+            <TextView
+
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="R.Brigadeiro Gavião Peixoto, nº 1419"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+            <TextView
+
+                android:textSize="14sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(Inicio da rua Guaipá com rua Belmonte)"
+                android:textAlignment="center"
+                android:textColor="#000" />
+            <TextView
+
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fone: (11)3645-2168"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+            <TextView
+
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lapa"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#000FFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Loja 2"
+                android:textAlignment="center"
+                android:textColor="#000FFF"
+                android:textSize="20sp" />
+
+
+
+            <TextView
+
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rua Clelia, nº421"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+            <TextView
+
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fone: (11)3865-2539"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+            <TextView
+
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lapa"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#000FFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Loja 3"
+                android:textAlignment="center"
+                android:textColor="#000FFF"
+                android:textSize="20sp" />
+
+
+
+            <TextView
+
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rua Samuel das Neves, nº 57"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+            <TextView
+
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fone: (11)3101-1781"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+            <TextView
+
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bela Vista"
+                android:textAlignment="center"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#000FFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Whatsapp: 95845-1288"
+                android:textAlignment="center"
+                android:textColor="#ff1a00"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView9"
+                android:layout_marginTop="14dp"
+                android:layout_weight="0.02"
+                android:text="   Email: comercial@azulejosantigos.net.br"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView9"
+                android:layout_marginTop="14dp"
+                android:layout_weight="0.02"
+                android:text="   www.azulejosantigos.net.br"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="91dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="68dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/logo_insta"
+                    android:text="Ligue para nós" />
+
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="68dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_toEndOf="@+id/imageView"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:src="@drawable/logo_fb"
+                    android:text="Ligue para nós" />
+
+                <ImageView
+                    android:layout_width="68dp"
+                    android:layout_height="90dp"
+                    android:layout_alignLeft="@+id/imageView5"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/imageView5"
+                    android:layout_marginLeft="71dp"
+                    android:layout_marginStart="71dp"
+                    android:src="@drawable/logo_google"
+                    android:text="Ligue para nós"
+                    android:id="@+id/imageView6" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="68dp"
+                    android:layout_height="90dp"
+                    android:layout_alignBottom="@+id/imageView6"
+                    android:layout_toEndOf="@+id/imageView6"
+                    android:layout_toRightOf="@+id/imageView6"
+                    android:src="@drawable/logo_whatsapp"
+                    android:text="Ligue para nós" />
+
+                <ImageView
+                    android:layout_width="68dp"
+                    android:layout_height="90dp"
+                    android:layout_alignTop="@+id/imageView7"
+                    android:layout_toEndOf="@+id/imageView7"
+                    android:layout_toRightOf="@+id/imageView7"
+                    android:src="@drawable/logo_viber"
+                    android:text="Ligue para nós" />
+
+
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/btnVoltar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textAlignment="center"
+                android:textColor="#000FFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:text="Voltar"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slImages"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <com.daimajia.slider.library.Indicators.PagerIndicator
+        android:id="@+id/custom_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:layout_marginTop="-15dp"
+        />
+
+    <ImageView
+        android:id="@+id/btnaudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="187dp"
+        android:background="@drawable/audiotexto"
+        android:text="AudioTexto" />
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
